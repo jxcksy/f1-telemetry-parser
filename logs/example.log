@@ -1,0 +1,20 @@
+[2022-05-03 18:38:34] [MainThread] [INFO]: filtering: ['PacketCarTelemetryData']
+[2022-05-03 18:38:34] [MainThread] [INFO]: monitor thread started, listening on port:20777
+[2022-05-03 18:38:48] [MainThread] [INFO]: monitor thread stopped
+[2022-05-03 18:39:16] [MainThread] [INFO]: filtering: ['PacketCarTelemetryData', 'PacketLapData']
+[2022-05-03 18:39:16] [MainThread] [INFO]: monitor thread started, listening on port:20777
+[2022-05-03 18:55:56] [MainThread] [INFO]: monitor thread stopped
+[2022-05-03 19:09:29] [MainThread] [INFO]: filtering: ['PacketSessionHistoryData', 'PacketSessionData']
+[2022-05-03 19:09:29] [MainThread] [INFO]: monitor thread started, listening on port:20777
+[2022-05-03 19:09:41] [MainThread] [INFO]: monitor thread stopped
+[2022-05-03 19:09:56] [MainThread] [INFO]: filtering: ['PacketCarStatusData']
+[2022-05-03 19:09:56] [MainThread] [INFO]: monitor thread started, listening on port:20777
+[2022-05-03 19:10:02] [MainThread] [INFO]: monitor thread stopped
+[2022-05-03 19:10:54] [MainThread] [INFO]: invalid filter provided: PacketWrongExampleData
+[2022-05-03 19:10:54] [MainThread] [INFO]: monitor thread started, listening on port:20777
+[2022-05-03 19:10:59] [MainThread] [INFO]: monitor thread stopped
+[2022-05-03 19:11:34] [MainThread] [INFO]: filtering: ['PacketCarTelemetryData']
+[2022-05-03 19:11:34] [MainThread] [INFO]: monitor thread started, listening on port:20777
+[2022-05-03 19:11:50] [MainThread] [INFO]: monitor thread stopped
+[2022-05-03 19:12:37] [MainThread] [INFO]: monitor thread started, listening on port:20777
+[2022-05-03 19:12:41] [MainThread] [INFO]: monitor thread stopped
