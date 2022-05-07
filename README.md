@@ -60,14 +60,22 @@ python3 monitor.py PacketCarTelemetryData PacketLapData
 
 In this example, we are filtering for the car telemetry data, as well as the lap data.
 
+&nbsp;
 
+## Filters
 
-
-
-
-
-
-
-
-
+| Filter Name         | Description                                                                       |
+| ------------------------------- | --------------------------------------------------------------------- |
+| PacketMotionData                | Motion data about the player’s car                                    |
+| PacketSessionData               | Data about the session - weather, track, time remaining etc.          |
+| PacketLapData                   | Data about all of the lap times of every car in the session           |
+| PacketEventData                 | Notable events that have happened - penalties, retirements etc.       |
+| PacketParticipantsData          | List of all players in the session (multiplayer)                      |
+| PacketCarSetupData              | Car setup data for every car in the session - front/rear wing etc.    |
+| PacketCarTelemetryData          | Telemetry data for every car in the session - speed, gear etc.        |
+| PacketCarStatusData             | Status data for every car in the session - damage, tyre wear etc.     |
+| PacketFinalClassificationData   | Final classification confirmation at the end of the session           |
+| PacketLobbyInfoData             | Information about every player in the session (multiplayer)           |
+| PacketCarDamageData             | Damage status for every car in the session                            |
+| PacketSessionHistoryData        | Lap and sector data for the session - best lap, best sector etc.      |
 
