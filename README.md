@@ -19,13 +19,13 @@ For optimisation purposes, I hope to develop a C/C++ version of this project at 
 &nbsp;
 
 
-## Usage
+## Setup
 
 ### Enable UDP Telemetry on F12021:
 
 &nbsp;
 
-**Game Options --> Settings --> Telemetry Settings**
+- **Game Options --> Settings --> Telemetry Settings**
 
 &nbsp;
 
@@ -39,6 +39,29 @@ For optimisation purposes, I hope to develop a C/C++ version of this project at 
 - **UDP Port** can remain as the default value: **20777**
 - **UDP Send Rate** can remain at **20hz**
 - **UDP Format** must remain at **2021**
+
+&nbsp;
+
+## Usage
+
+While inside the **client** directory, run the following command:
+
+```python
+python3 monitor.py
+```
+
+The packet information received is then decoded and written to it's associated json file (categorised by packet type).
+
+If you wish to optimise the telemetry parser, or ignore all packet information that you do not deem useful, you can filter the UDP data stream to only process the certain packets:
+
+```python
+python3 monitor.py PacketCarTelemetryData PacketLapData
+```
+
+In this example, we are filtering for the car telemetry data, as well as the lap data.
+
+
+
 
 
 
