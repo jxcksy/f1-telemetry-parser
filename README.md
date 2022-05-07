@@ -16,11 +16,23 @@ For optimisation purposes, I hope to develop a C/C++ version of this project at 
 
 ## Usage
 
-#### Enable UDP Telemetry on F12021:
+### Enable UDP Telemetry on F12021:
 
 **Game Options --> Settings --> Telemetry Settings**
 
 ![Telemetry Settings](img/telemetry-settings.png)
+
+### Telemetry Settings
+
+- **UDP Telemetry** must be set to **On**
+- **UDP Broadcast Mode** can be set to **Off** (as it is very resource intensive)
+- **UDP IP Address** must be set to the **Device IP Address** of the device you wish to receive the data on
+- **UDP Port** can remain as the default value: **20777**
+- **UDP Send Rate** can remain at **20hz**
+- **UDP Format** must remain at **2021**
+
+
+
 
 
 
