@@ -2,7 +2,7 @@
 
 ![F1 2021 Redbull](img/rb.jpeg)
 
-### Python UDP Client & Telemetry Parser for the F12021 game by Codemasters.
+#### Python UDP Client & Telemetry Parser for the F12021 game by Codemasters.
 
 The UDP Specification (Packet Decoding) by Codemasters used for this project can be found [here.](https://forums.codemasters.com/topic/80231-f1-2021-udp-specification/?do=findComment&comment=624274)
 
@@ -16,9 +16,9 @@ For optimisation purposes, I hope to develop a C/C++ version of this project at 
 
 ## Usage
 
-**1. Enable UDP Telemetry on F12021:**
+#### Enable UDP Telemetry on F12021:
 
-- **Game Options -> Settings -> Telemetry Settings**
+**Game Options --> Settings --> Telemetry Settings**
 
 ![Telemetry Settings](img/telemetry-settings.png)
 
