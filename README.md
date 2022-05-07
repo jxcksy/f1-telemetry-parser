@@ -52,7 +52,7 @@ python3 monitor.py
 
 The packet information received is then decoded and written to it's associated json file (categorised by packet type). **Note:** This information should ideally be stored in a time-series database like InfluxDB, Prometheus etc.
 
-If you wish to optimise the telemetry parser, or ignore all packet information that you do not deem useful, you can filter the UDP data stream to only process the certain packets:
+If you wish to optimise the telemetry parser, or ignore all packet information that you do not deem useful, you can filter the UDP data stream to only process certain packets by specifying them like this:
 
 ```python
 python3 monitor.py PacketCarTelemetryData PacketLapData
