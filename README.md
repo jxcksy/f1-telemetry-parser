@@ -64,6 +64,8 @@ In this example, we are filtering for the car telemetry data, as well as the lap
 
 ## Filters
 
+A list of all possible filters, along with their description:
+
 | Filter Name         | Description                                                                       |
 | ------------------------------- | --------------------------------------------------------------------- |
 | PacketMotionData                | Motion data about the player’s car                                    |
